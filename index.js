@@ -76,3 +76,5 @@ const build = async () => {
 mongoose.connect(
   'mongodb+srv://Baza:123456578686@bazascluster.wkprz.mongodb.net/?retryWrites=true&w=majority',
 );
+
+build();
